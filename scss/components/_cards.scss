@@ -1,0 +1,18 @@
+// Cajas servicios y trabajos 
+.caja {
+    background-color: $color-primario;
+    color: $color-secundario;
+    width: 200px;
+    height: 200px;
+    border: 3px solid $color-secundario;
+    padding: 20px;
+    min-width: 200px;
+    margin: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    transition: 0.3s;
+
+    &:hover {
+        transform: scale(1.05);
+    }
+}

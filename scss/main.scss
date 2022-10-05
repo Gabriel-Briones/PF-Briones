@@ -1,0 +1,43 @@
+@import 'base/reset';
+@import 'base/typography';
+
+@import "./utils/variables";
+@import "./utils/mixins";
+
+@import 'components/carousel';
+@import 'components/cover';
+@import 'components/cards';
+
+@import 'layout/navigation';
+@import 'layout/header';
+@import 'layout/forms';
+@import 'layout/footer';
+@import 'layout/body';
+
+@import 'pages/home';
+@import 'pages/contact';
+
+
+// Imagenes 
+.img-superpuesta {
+    margin-left: 5vh;
+    margin-top: 20vh;
+}
+
+
+
+// animaciones 
+.animacion {
+    animation-duration: 3s;
+    animation-name: opacidad;
+}
+
+@keyframes opacidad {
+    from {
+        opacity: 0%;
+    }
+
+    to {
+        opacity: 100%;
+    }
+}

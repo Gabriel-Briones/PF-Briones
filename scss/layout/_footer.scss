@@ -1,0 +1,15 @@
+// footer 
+.barra_foot {
+    background-color: $color-secundario;
+    color: $color-alternativo;
+
+    a {
+        i {
+            color: $color-primario;
+
+            &:hover {
+                color: $color-alternativo;
+            }
+        }
+    }
+}

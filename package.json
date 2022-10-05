@@ -1,0 +1,15 @@
+{
+  "name": "tercera_entrega_cuervo_digital",
+  "version": "1.0.0",
+  "description": "En este trabajo se realiza una WEB responsive con bootstrap",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass scss/main.scss css/styles.css"
+  },
+  "author": "Gabriel Briones",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.2.2"
+  }
+}

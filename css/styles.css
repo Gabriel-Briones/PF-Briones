@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.caja {
+  background-color: #FCA311;
+  color: #14213D;
+  width: 200px;
+  height: 200px;
+  border: 3px solid #14213D;
+  padding: 20px;
+  min-width: 200px;
+  margin: 10px;
+  border-radius: 10px;
+  display: inline-block;
+  transition: 0.3s;
+}
+.caja:hover {
+  transform: scale(1.05);
+}
+
+.barra_nav {
+  background-color: #14213D;
+  overflow: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  box-shadow: 20x 5px 5px #E5E5E5;
+  font-family: "Roboto";
+}
+.barra_nav ul {
+  float: right;
+  font-size: 14px;
+  list-style: none;
+}
+.barra_nav ul li {
+  padding-right: 15px;
+  margin-right: 15px;
+}
+.barra_nav ul li a {
+  font-style: normal;
+  width: 150px;
+  left: 866px;
+  top: 29px;
+  color: #000000;
+  background: #FCA311;
+  border: 1px solid #000000;
+  box-shadow: 0px 4px 4px #000000;
+  border-radius: 10px;
+  padding: 5px 15px 5px 15px;
+  text-align: center;
+  text-decoration: none;
+}
+.barra_nav ul li a:hover {
+  background-color: #E5E5E5;
+  color: #000000;
+  font-weight: 300;
+  border-radius: 10px;
+}
+.barra_nav .logo {
+  font-family: "Roboto";
+  color: #E5E5E5;
+}
+
+.barra_foot {
+  background-color: #14213D;
+  color: #E5E5E5;
+}
+.barra_foot a i {
+  color: #FCA311;
+}
+.barra_foot a i:hover {
+  color: #E5E5E5;
+}
+
+body {
+  background-image: url("../assets/img/Fondo.jpg");
+  background-color: #E5E5E5;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img-superpuesta {
+  margin-left: 5vh;
+  margin-top: 20vh;
+}
+
+.animacion {
+  animation-duration: 3s;
+  animation-name: opacidad;
+}
+
+@keyframes opacidad {
+  from {
+    opacity: 0%;
+  }
+  to {
+    opacity: 100%;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
