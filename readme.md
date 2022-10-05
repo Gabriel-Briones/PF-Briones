@@ -1,3 +1,3 @@
-# Segunda Pre-Entrega Coderhouse Comision 33035
+# Tercera Pre-Entrega Coderhouse Comision 33035
 
-En este trabajo se realiza una WEB responsive con bootstrap
+En este trabajo hace uso de la herramienta SASS
