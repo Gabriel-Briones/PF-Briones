@@ -1,7 +1,7 @@
 {
   "name": "tercera_entrega_cuervo_digital",
   "version": "1.0.0",
-  "description": "En este trabajo se realiza una WEB responsive con bootstrap",
+  "description": "En este trabajo se hace uso de las herramientas de SASS",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

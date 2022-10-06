@@ -2,6 +2,9 @@
 .barra_foot {
     background-color: $color-secundario;
     color: $color-alternativo;
+    position: relative;
+    bottom: 0;
+    left: 0;
 
     a {
         i {

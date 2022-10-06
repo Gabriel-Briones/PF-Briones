@@ -8,6 +8,12 @@
   font-family: "Roboto", sans-serif;
 }
 
+.fotosEquipo .fotosEquipo__item .fotosEquipo__item__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .caja {
   background-color: #FCA311;
   color: #14213D;
@@ -71,6 +77,9 @@
 .barra_foot {
   background-color: #14213D;
   color: #E5E5E5;
+  position: relative;
+  bottom: 0;
+  left: 0;
 }
 .barra_foot a i {
   color: #FCA311;
@@ -80,11 +89,60 @@
 }
 
 body {
-  background-image: url("../assets/img/Fondo.jpg");
+  background-image: url("../assets/img/cuervo.svg");
   background-color: #E5E5E5;
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.vertical {
+  height: 80vh;
+}
+
+.fotosEquipo {
+  margin: 0 auto;
+  width: 80%;
+  display: grid;
+  grid-auto-rows: auto;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  gap: 1.5rem;
+}
+.fotosEquipo .fotosEquipo__item {
+  position: relative;
+  width: 95%;
+  height: 40rem;
+  overflow: hidden;
+}
+.fotosEquipo .fotosEquipo__item .fotosEquipo__item__img {
+  background-color: #FCA311;
+  cursor: pointer;
+}
+.fotosEquipo .fotosEquipo__item .fotosEquipo__item__hover {
+  background: rgba(20, 33, 61, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #E5E5E5;
+  text-align: center;
+  transform: translateX(100%);
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+.fotosEquipo .fotosEquipo__item .fotosEquipo__item__h2 {
+  margin-bottom: 0.4rem;
+}
+.fotosEquipo .fotosEquipo__item .fotosEquipo__item__p {
+  margin: 0.4rem;
+}
+.fotosEquipo .fotosEquipo__item:hover .fotosEquipo__item__hover {
+  transform: translateX(0%);
 }
 
 .img-superpuesta {

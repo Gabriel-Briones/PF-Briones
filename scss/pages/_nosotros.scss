@@ -1,0 +1,46 @@
+.fotosEquipo {
+    margin: 0 auto;
+    width: 80%;
+    display: grid;
+    grid-auto-rows: auto;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap: 1.5rem;
+
+    .fotosEquipo__item {
+        position: relative;
+        @include wh(95%, 40rem);
+        overflow: hidden;
+
+        .fotosEquipo__item__img {
+            background-color: $color-primario;
+            @extend %imagenes;
+            cursor: pointer;
+        }
+
+        .fotosEquipo__item__hover {
+            background: rgba($color-secundario, .5);
+            position: absolute;
+            top: 0;
+            left: 0;
+            @include wh(100%, 100%);
+            @include flexbox(column, center, center);
+            color: $color-alternativo;
+            text-align: center;
+            transform: translateX(100%);
+            cursor: pointer;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .fotosEquipo__item__h2 {
+            margin-bottom: 0.4rem;
+        }
+
+        .fotosEquipo__item__p {
+            margin: 0.4rem;
+        }
+    }
+
+    .fotosEquipo__item:hover .fotosEquipo__item__hover {
+        transform: translateX(0%);
+    }
+}

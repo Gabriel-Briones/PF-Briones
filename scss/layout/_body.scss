@@ -1,8 +1,12 @@
 // fondo de las paginas 
 body {
-    background-image: url("../assets/img/Fondo.jpg");
+    background-image: url("../assets/img/cuervo.svg");
     background-color: $color-alternativo;
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.vertical {
+    height: 80vh;
 }
